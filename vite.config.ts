@@ -6,7 +6,9 @@ import Components from 'unplugin-vue-components/vite'
 
 export default defineConfig({
   plugins: [
-    vue(),
+    vue({
+      reactivityTransform: true,
+    }),
     eslint({
       shouldLint: (path) => /\/.*\.([jt]sx?|vue)$/.test(path),
     }),

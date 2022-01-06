@@ -1,7 +1,11 @@
 <script setup lang="ts">
-const count = ref(0)
+let count = $ref(0)
+
+function add() {
+  count++
+}
 </script>
 
 <template>
-  <button type="button" @click="count++">count is: {{ count }}</button>
+  <button type="button" @click="add">count is: {{ count }}</button>
 </template>
