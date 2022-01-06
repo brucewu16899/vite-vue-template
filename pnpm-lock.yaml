@@ -2,6 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@nabla/vite-plugin-eslint': ^1.3.5
+  '@types/node': ^16
   '@typescript-eslint/eslint-plugin': ^5.9.0
   '@typescript-eslint/parser': ^5.9.0
   '@vitejs/plugin-vue': ^2.0.0
@@ -24,6 +25,7 @@ dependencies:
 
 devDependencies:
   '@nabla/vite-plugin-eslint': 1.3.5_eslint@8.6.0+vite@2.7.10
+  '@types/node': 16.11.19
   '@typescript-eslint/eslint-plugin': 5.9.0_bd2fd93dbcc607ad2f21b784bccfe0c8
   '@typescript-eslint/parser': 5.9.0_eslint@8.6.0+typescript@4.5.4
   '@vitejs/plugin-vue': 2.0.1_vite@2.7.10+vue@3.2.26
@@ -166,6 +168,10 @@ packages:
 
   /@types/json-schema/7.0.9:
     resolution: {integrity: sha512-qcUXuemtEu+E5wZSJHNxUXeCZhAfXKQ41D+duX+VYPde7xyEVZci+/oXKJL13tnRs9lR2pr4fod59GT6/X1/yQ==}
+    dev: true
+
+  /@types/node/16.11.19:
+    resolution: {integrity: sha512-BPAcfDPoHlRQNKktbsbnpACGdypPFBuX4xQlsWDE7B8XXcfII+SpOLay3/qZmCLb39kV5S1RTYwXdkx2lwLYng==}
     dev: true
 
   /@types/throttle-debounce/2.1.0:
