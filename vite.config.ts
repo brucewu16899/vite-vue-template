@@ -13,7 +13,7 @@ export default defineConfig({
       shouldLint: (path) => /\/.*\.([jt]sx?|vue)$/.test(path),
     }),
     AutoImport({
-      imports: ['vue'],
+      imports: ['vue', '@vueuse/core'],
       dts: 'src/auto-imports.d.ts',
     }),
     Components({
