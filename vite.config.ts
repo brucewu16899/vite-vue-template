@@ -14,7 +14,7 @@ export default defineConfig({
       shouldLint: (path) => /\/.*\.([jt]sx?|vue)$/.test(path),
     }),
     AutoImport({
-      imports: ['vue', '@vueuse/core'],
+      imports: ['vue', 'vue-router', '@vueuse/core'],
       dts: 'src/auto-imports.d.ts',
     }),
     Components({

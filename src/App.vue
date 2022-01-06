@@ -1,18 +1,12 @@
-<script setup lang="ts">
-let count = $ref(0)
-
-function add() {
-  count++
-}
-
-const { x, y } = $(useMouse())
-
-watchEffect(() => {
-  console.log(`鼠标位置: (${x}, ${y})`)
-})
-</script>
-
 <template>
-  <button type="button" @click="add">count is: {{ count }}</button>
-  <p>鼠标位置: ({{ x }}, {{ y }})</p>
+  <h1>App</h1>
+  <div class="page">
+    <router-view />
+  </div>
 </template>
+
+<style scoped>
+.page {
+  outline: #000 dashed 1px;
+}
+</style>
