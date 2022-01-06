@@ -21,5 +21,7 @@ module.exports = {
       jsx: true,
     },
   },
-  rules: {},
+  rules: {
+    'no-undef': 'off',
+  },
 }
