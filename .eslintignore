@@ -5,5 +5,6 @@ dist-ssr
 *.local
 
 .eslintcache
+.pnpm-debug.log
 
 !.prettierrc.js
