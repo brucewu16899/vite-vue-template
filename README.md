@@ -14,8 +14,8 @@
 
 Windows系统下将编辑器 `行尾(eol)` 设置为 `LF('\n')`
 
+vscode配置:
 ```json
-// vscode配置
 {
     "files.eol": "\n"
 }
