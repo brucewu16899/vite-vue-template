@@ -2,6 +2,8 @@
 
 一个vue3项目模板
 
+[封装 ant-design-vue 版本点此](https://github.com/fx100/vite-vue-antdv-template)
+
 ## 主要依赖
 
 - vite `2.7.2`
