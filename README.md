@@ -12,6 +12,8 @@
 - eslint
 - prettier
 
+> 完整依赖见 `package.json`
+
 ## 准备
 
 Windows系统下将编辑器 `行尾(eol)` 设置为 `LF('\n')`
