@@ -17,7 +17,7 @@ export default defineConfig({
       },
     }),
     AutoImport({
-      imports: ['vue'],
+      imports: ['vue', '@vueuse/core'],
       eslintrc: {
         enabled: true,
         filepath: './.eslintrc-auto-import.json',
