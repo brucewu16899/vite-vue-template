@@ -2,7 +2,7 @@ import * as path from 'path'
 import { defineConfig, loadEnv } from 'vite'
 import { createHtmlPlugin } from 'vite-plugin-html'
 import vue from '@vitejs/plugin-vue'
-import eslint from '@nabla/vite-plugin-eslint'
+import eslint from 'vite-plugin-eslint'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 
@@ -23,10 +23,7 @@ export default defineConfig(({ mode }) => {
         reactivityTransform: true,
       }),
       eslint({
-        shouldLint: (path) => /\/.*\.([jt]sx?|vue)$/.test(path),
-        eslintOptions: {
-          fix: true,
-        },
+        fix: true,
       }),
       AutoImport({
         imports: ['vue', 'vue-router', '@vueuse/core'],
