@@ -11,6 +11,7 @@ specifiers:
   eslint-config-prettier: ^8.5.0
   eslint-plugin-prettier: ^4.0.0
   eslint-plugin-vue: ^8.5.0
+  fonts.css: ^2.0.0
   normalize.css: ^8.0.1
   prettier: ^2.5.1
   sass: ^1.49.9
@@ -26,6 +27,7 @@ specifiers:
 
 dependencies:
   '@vueuse/core': 7.7.0_vue@3.2.31
+  fonts.css: 2.0.0
   normalize.css: 8.0.1
   vue: 3.2.31
   vue-router: 4.0.13_vue@3.2.31
@@ -1467,6 +1469,10 @@ packages:
   /flatted/3.2.5:
     resolution: {integrity: sha512-WIWGi2L3DyTUvUrwRKgGi9TwxQMUEqPOPQBVi71R96jZXJdFskXEmf54BoZaS1kknGODoIGASGEzBUYdyMCBJg==}
     dev: true
+
+  /fonts.css/2.0.0:
+    resolution: {integrity: sha512-Q1f9npa8JaN+HnIB29U+l50XFIJvawglX2Hx+vEjp6VsghQTPRy0/WISnDhY7ozvUs68TXq7F0KxtVU97uUVYw==}
+    dev: false
 
   /fs-extra/10.0.1:
     resolution: {integrity: sha512-NbdoVMZso2Lsrn/QwLXOy6rm0ufY2zEOKCDzJR/0kBsb0E6qed0P3iYK+Ath3BfvXEeu4JhEtXLgILx5psUfag==}
