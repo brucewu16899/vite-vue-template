@@ -18,6 +18,11 @@ export default defineConfig({
     }),
     AutoImport({
       imports: ['vue'],
+      eslintrc: {
+        enabled: true,
+        filepath: './.eslintrc-auto-import.json',
+        globalsPropValue: true,
+      },
       dts: 'src/auto-imports.d.ts',
     }),
     Components({
