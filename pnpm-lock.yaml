@@ -18,11 +18,13 @@ specifiers:
   vite: ^2.8.6
   vite-plugin-checker: ^0.4.2
   vue: ^3.2.31
+  vue-router: ^4.0.13
   vue-tsc: ^0.29.8
 
 dependencies:
   '@vueuse/core': 7.7.0_vue@3.2.31
   vue: 3.2.31
+  vue-router: 4.0.13_vue@3.2.31
 
 devDependencies:
   '@types/node': 16.11.26
@@ -408,6 +410,10 @@ packages:
     dependencies:
       '@vue/compiler-dom': 3.2.31
       '@vue/shared': 3.2.31
+    dev: false
+
+  /@vue/devtools-api/6.0.12:
+    resolution: {integrity: sha512-iO/4FIezHKXhiDBdKySCvJVh8/mZPxHpiQrTy+PXVqJZgpTPTdHy4q8GXulaY+UKEagdkBb0onxNQZ0LNiqVhw==}
     dev: false
 
   /@vue/eslint-config-typescript/10.0.0_6bae48b99b40de9ce3e67c9c629a2961:
@@ -2240,6 +2246,15 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /vue-router/4.0.13_vue@3.2.31:
+    resolution: {integrity: sha512-LmXrC+BkDRLak+d5xTMgUYraT3Nj0H/vCbP+7usGvIl9Viqd1UP6AsP0i69pSbn9O0dXK/xCdp4yPw21HqV9Jw==}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      '@vue/devtools-api': 6.0.12
+      vue: 3.2.31
+    dev: false
 
   /vue-tsc/0.29.8_typescript@4.5.5:
     resolution: {integrity: sha512-pT0wLRjvRuSmB+J4WJT6uuV9mO0KtSSXEAtaVXZQzyk5+DJdbLIQTbRce/TXSkfqt1l1WogO78RjtOJFiMCgfQ==}
