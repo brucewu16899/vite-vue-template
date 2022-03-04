@@ -21,3 +21,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# unplugin-auto-import
+auto-imports.d.ts
