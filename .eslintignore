@@ -22,6 +22,9 @@ dist-ssr
 *.sln
 *.sw?
 
+# eslint
+.eslintcache
+
 # unplugin-auto-import
 auto-imports.d.ts
 .eslintrc-auto-import.json

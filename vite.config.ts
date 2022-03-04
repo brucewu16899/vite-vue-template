@@ -1,7 +1,7 @@
 import * as path from 'path'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import checker from 'vite-plugin-checker'
+import eslint from '@nabla/vite-plugin-eslint'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 
@@ -10,10 +10,10 @@ export default defineConfig({
     vue({
       reactivityTransform: true,
     }),
-    checker({
-      vueTsc: true,
-      eslint: {
-        lintCommand: 'eslint ./**/*.{json,js,jsx,ts,tsx,vue}',
+    eslint({
+      shouldLint: (path) => /\/.*\.([jt]sx?|vue)$/.test(path),
+      eslintOptions: {
+        fix: true,
       },
     }),
     AutoImport({
